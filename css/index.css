@@ -1,0 +1,12 @@
+#carousel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#carouselContent{
+    margin-top: 5%;
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    background-color: gray;
+}
