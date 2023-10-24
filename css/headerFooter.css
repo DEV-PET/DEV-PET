@@ -10,13 +10,32 @@ header{
     margin-left: 5%;
     margin-right: 5%;
 }
-#headerContent img{
+#logo{
     height: 10vh;
 }
 #headerContent p{
     font-size: 2.5vh;
 }
+#arrow{
+    height: 6vh;
+}
 
 body{
     margin: 0px;
+}
+
+footer{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(206, 255, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footerContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
 }
