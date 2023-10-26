@@ -1,13 +1,9 @@
-//CAROUSEL
+//====================================CAROUSEL====================================\\
 const slide = document.querySelector(".slide");
-const prevBtn = document.querySelector(".prevBtn");
-const nextBtn = document.querySelector(".nextBtn");
 
 let slideIndex = 0;
 
-//ACTION LISTENERS
-prevBtn.addEventListener("click", prevSlide());
-nextBtn.addEventListener("click", nextSlide());
+setInterval(nextSlide, 5000)
 
 //FUNCTIONS
 function showSlide(index) {
@@ -16,12 +12,9 @@ function showSlide(index) {
     } else if (index >= slide.childElementCount) {
         slideIndex = 0;
     }
-    
-    slide.style.transform = `translateX(-${slideIndex * 100}%)`;
-}
 
-function prevSlide() {
-    slideIndex--;
+    slide.style.transform = `translateX(-${slideIndex * 100}%)`;
+    
     showSlide(slideIndex);
 }
 
@@ -29,5 +22,3 @@ function nextSlide() {
     slideIndex++;
     showSlide(slideIndex);
 }
-
-showSlide(slideIndex);  
