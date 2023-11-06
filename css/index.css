@@ -69,14 +69,7 @@
 }
 
 /*NON SELECTABLE ITEMS*/
-#login{
-    user-select: none;
-}
-img{
-    user-select: none;
-}
 
-/*CATEGORIES*/
 #categories{
     display: flex;
     align-items: center;

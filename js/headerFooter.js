@@ -1,17 +1,22 @@
 //====================================LOGIN-BUTTON====================================\\
-document.addEventListener('DOMContentLoaded', function () {
-    const login = document.getElementById('login');
+const login = document.getElementById('login');
 
-    // ACTION LISTENERS
-    login.addEventListener('click', loginRedirect);
+// EVENT LISTENERS
+login.addEventListener('click', loginRedirect);
 
-    // FUNCTIONS
-    function loginRedirect() {
-        window.location.href = '../html/login.html';
-    }
-});
+// FUNCTIONS
+function loginRedirect() {
+    window.location.href = '../html/login.html';
+}
 
 //====================================MENU====================================\\
 document.getElementById('arrow');
+document.getElementById('logo');
 
-//EVENT LISTENERS
+// EVENT LISTENERS
+logo.addEventListener('click', homeRedirect)
+
+// FUNCTIONS
+function homeRedirect() {
+    window.location.href = '../index.html';
+}

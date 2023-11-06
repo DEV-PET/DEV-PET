@@ -39,3 +39,11 @@ footer{
     margin-left: 5%;
     margin-right: 5%;
 }
+
+/*NON SELECTABLE ITEMS*/
+#login{
+    user-select: none;
+}
+img{
+    user-select: none;
+}
