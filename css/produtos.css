@@ -1,4 +1,4 @@
-main{
+main {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -6,21 +6,21 @@ main{
 }
 
 /*FILTER*/
-.filterContainer{
+.filterContainer {
     display: flex;
     align-self: flex-end;
     font-size: 4vh;
     margin: 15px;
 }
 
-#filter{
+#filter {
     font-size: 3vh;
     border-radius: 15px;
     height: 7vh;
 }
 
 /*TEXT*/
-.text{
+.text {
     display: flex;
     width: 30%;
     align-self: flex-start;
@@ -28,13 +28,13 @@ main{
     margin-bottom: 0px;
 }
 
-.textStartFinal{
+.textStartFinal {
     margin: 2vh;
     margin-top: 0px;
 }
 
 /*CARDS*/
-.products{
+.products {
     width: 100%;
     min-height: 30vh;
     display: flex;
@@ -45,7 +45,8 @@ main{
     align-self: flex-end;
     flex-direction: row;
 }
-.cards{
+
+.cards {
     width: 70%;
     min-height: 35vh;
     display: flex;
@@ -55,7 +56,7 @@ main{
     border-radius: 15px;
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,4 +68,14 @@ main{
     mask-border-width: 15px;
     border-radius: 15px;
     background-color: aliceblue;
+}
+
+.descBuy {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.buy{
+    width: 25px;
 }

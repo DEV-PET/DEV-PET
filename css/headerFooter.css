@@ -2,6 +2,8 @@ header{
     background-color: rgb(206, 255, 231);
     height: 10%;
     width: 100%;
+    position: absolute;
+    z-index: 1;
 }
 #headerContent{
     display: flex;
@@ -18,6 +20,7 @@ header{
 }
 #arrow{
     height: 6vh;
+    transition: transform 0.5s;
 }
 
 body{
@@ -46,4 +49,37 @@ footer{
 }
 img{
     user-select: none;
+}
+
+/*CATEGORIES*/
+    #categories{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    height: 5vh;
+}
+#categories a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/*SIDE MENU*/
+#sideMenu{
+    display: flex;
+    flex-direction: column;
+    display: none;
+    position: absolute;
+    z-index: 2;
+    background-color: rgb(206, 255, 231);
+    width: 25vh;
+    height: 15vh;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#sideMenu a{
+    text-decoration: none;
+    color: inherit;
 }
