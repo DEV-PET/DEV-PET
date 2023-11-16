@@ -5,24 +5,10 @@ main {
     flex-direction: column;
 }
 
-/*FILTER*/
-.filterContainer {
-    display: flex;
-    align-self: flex-end;
-    font-size: 4vh;
-    margin: 15px;
-}
-
-#filter {
-    font-size: 3vh;
-    border-radius: 15px;
-    height: 7vh;
-}
-
 /*TEXT*/
 .text {
     display: flex;
-    width: 30%;
+    width: 35%;
     align-self: flex-start;
     margin-left: 2vh;
     margin-bottom: 0px;
@@ -30,7 +16,7 @@ main {
 
 .textStartFinal {
     margin: 2vh;
-    margin-top: 0px;
+    margin-top: 7%
 }
 
 /*CARDS*/

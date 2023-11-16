@@ -43,7 +43,7 @@ function showSideMenu() {
 
 arrow.addEventListener("click", () => {
     if (isRotated) {
-        arrow.style.transform = "rotate(deg)";
+        arrow.style.transform = "rotate(0deg)";
         isRotated=false;
     } else {
         arrow.style.transform = "rotate(90deg)";
