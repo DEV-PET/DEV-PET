@@ -190,11 +190,5 @@ main {
   }
   
   .card .content .product-image .box-image .img-product {
-    margin: auto;
     width: 7rem;
-    height: auto;
-  }
-  
-  .fil-shoes1, .fil-shoes2 {
-    fill: #333333
   }

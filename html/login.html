@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="../css/headerFooter.css">
+    <link rel="stylesheet" href="../css/login.css">
 </head>
 <body>
     <header>
@@ -19,17 +20,29 @@
             <a href="">SAC</a>
             <a href="">Feedback</a>
         </div>
-        
-        <section id="categories">
-            <a href="../html/produtosCachorro.html">Cachorro</a>
-            <a href="../html/produtosGato.html">Gato</a>
-            <a href="../html/produtosPeixe.html">Peixe</a>
-            <a href="../html/produtosPassaro.html">Pássaro</a>
-        </section>
     </header>
 
     <main>
-
+        <div id="login-container">
+            <h2>Login</h2>
+            <input type="text" placeholder="Email" id="login-email">
+            <input type="password" placeholder="Senha" id="login-password">
+            <button onclick="login()">Entrar</button>
+            <p>Ainda não é usuário? <a href="#" onclick="showRegister()">Cadastrar-se</a></p>
+        </div>
+        
+        <div id="register-container">
+            <h2>Cadastro</h2>
+            <input type="text" placeholder="Nome" id="register-name">
+            <input type="text" placeholder="Email" id="register-email">
+            <input type="password" placeholder="Senha" id="register-password">
+            <input type="text" placeholder="CPF" id="register-cpf">
+            <input type="text" placeholder="Data de Nascimento" id="register-dob">
+            <input type="text" placeholder="Cidade" id="register-city">
+            <input type="text" placeholder="Estado" id="register-state">
+            <button onclick="register()">Cadastrar</button>
+            <p>Já é usuário? <a href="#" onclick="showLogin()">Login</a></p>
+        </div>
     </main>
 
     <footer>
@@ -39,4 +52,5 @@
     </footer>
 </body>
 <script src="../js/headerFooter.js"></script>
+<script src="../js/login.js"></script>
 </html>
