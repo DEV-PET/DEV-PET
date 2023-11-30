@@ -32,28 +32,11 @@ function fadeOutAndHide(elementId) {
 }
 
 function login() {
-    var email = document.getElementById('login-email').value;
-    var password = document.getElementById('login-password').value;
-
-    // Simulação de lógica de autenticação no lado do cliente (não seguro para produção)
-    if (email === 'usuario@email.com' && password === 'senha123') {
-        alert('Login realizado com sucesso!');
-    } else {
-        alert('Credenciais inválidas. Tente novamente.');
-    }
+    
 }
 
 function register() {
-    var name = document.getElementById('register-name').value;
-    var email = document.getElementById('register-email').value;
-    var password = document.getElementById('register-password').value;
-    var cpf = document.getElementById('register-cpf').value;
-    var dob = document.getElementById('register-dob').value;
-    var city = document.getElementById('register-city').value;
-    var state = document.getElementById('register-state').value;
-
-    // Simulação de lógica de cadastro no lado do cliente (não seguro para produção)
-    alert('Cadastro realizado com sucesso!\nNome: ' + name + '\nEmail: ' + email + '\nCPF: ' + cpf + '\nData de Nascimento: ' + dob + '\nCidade: ' + city + '\nEstado: ' + state);
+    
 }
 
 document.getElementById('toggle-btn').addEventListener('click', function () {
