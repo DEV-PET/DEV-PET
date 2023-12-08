@@ -38,7 +38,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: darkcyan;
+    background-color: #392818;
     border-radius: 15px;
 }
 
@@ -59,7 +59,7 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: rgb(206, 255, 231);
+    background-color: #ffffcc;
     width: 190px;
     height: 190px;
     cursor: pointer;
@@ -102,7 +102,7 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: rgb(206, 255, 231);
+    background-color: #ffffcc;
     padding: 20px;
     width: 190px;
     height: 190px;
