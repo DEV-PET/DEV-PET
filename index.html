@@ -7,6 +7,8 @@
     <title>DEV&PET</title>
     <link rel="stylesheet" href="./css/headerFooter.css">
     <link rel="stylesheet" href="./css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
@@ -22,7 +24,7 @@
             <a href="">SAC</a>
             <a href="">Feedback</a>
         </div>
-        
+
         <section id="categories">
             <a href="../html/produtosCachorro.html">Cachorro</a>
             <a href="../html/produtosGato.html">Gato</a>
@@ -32,31 +34,85 @@
     </header>
 
     <main>
-        <section id="carousel">
-            <div id="carouselContent">
-                <div class="slide">
-                    <img src="./Images/banner1.png" alt="banner1">
-                    <img src="./Images/banner2.png" alt="banner2">
-                    <img src="./Images/banner3.png" alt="banner3">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="height: 396px;">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="" class="d-block w-100" alt="..." style="height: 100%;">
+                </div>
+                <div class="carousel-item">
+                    <img src="" class="d-block w-100" alt="..." style="height: 100%;">
+                </div>
+                <div class="carousel-item">
+                    <img src="" class="d-block w-100" alt="..." style="height: 100%;">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <section class="recomended">
+            <div class="dogs">
+                <span>Recomendados para cachorros</span>
+                <div class="imgs">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </div>
+            </div>
+
+            <div class="cats">
+                <span>Recomendados para gatos</span>
+                <div class="imgs">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
                 </div>
             </div>
         </section>
 
-        <section id="aboutUs">
-            <div id="aboutUsText">
-                <ul>Lorem ipsum dolor sit amet consectetur adipisicing elit. In reprehenderit voluptates necessitatibus
-                    nostrum sed voluptate assumenda amet ducimus numquam illum excepturi error, eaque ad maiores
-                    tempora, doloremque beatae quibusdam hic.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, suscipit. Atque, deserunt
-                    perferendis et quis dicta ullam laboriosam excepturi explicabo dignissimos porro aliquid esse
-                    tenetur numquam, expedita pariatur eius mollitia!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolor corrupti consectetur aut,
-                    repellendus unde similique consequuntur cum, atque rerum vitae fuga deserunt odit tempore, numquam
-                    odio ullam facere iusto.
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam voluptatibus voluptate, fugiat
-                    eligendi labore laudantium accusamus distinctio! Nihil facere quaerat, a quia labore doloremque,
-                    accusamus voluptates cumque alias, quam ab.
-                </ul>
+        <h3>QUEM SOMOS NÓS</h3>
+        <section class="aboutUs">
+            <div class="profileImgs">
+                <div class="circleImg">
+                    <img src="" alt="">
+                </div>
+
+                <div class="circleImg">
+                    <img src="" alt="">
+                </div>
+            </div>
+
+            <div class="profileDescriptions">
+                <div class="description">
+                    <span><b>Luigi</b></span>
+                    <p>Desenvolvedor de nosso BackEnd e bando de dados</p>
+                </div>
+
+                <div class="description">
+                    <span><b>Paiva</b></span>
+                    <p>Desenvolvedor FrontEnd e Backend</p>
+                </div>
+
+                <div class="description">
+                    <span><b>Brum</b></span>
+                    <p>Desenvolvedor FrontEnd</p>
+                </div>
+            </div>
+
+            <div class="profileImgs2">
+                <div class="circleImg">
+                <img src="" alt="">
+                </div>
             </div>
         </section>
     </main>
@@ -70,4 +126,8 @@
 <script src="./js/index.js"></script>
 <script src="./js/produtos.js"></script>
 <script src="./js/headerFooter.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
 </html>

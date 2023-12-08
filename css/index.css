@@ -1,69 +1,57 @@
-/*CAROUSEL*/
-#carousel {
+main{
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#carouselContent {
-    margin-top: 5%;
-    width: 80%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: gray;
-    justify-content: center;
-    overflow: hidden;
-    position: relative;
-    border-radius: 5%;
-}
-
-#carouselContent span {
-    font-size: 7vh;
-    margin: 2%;
-}
-
-.slide {
-    display: flex;
-    width: 100%;
-    transition: transform 0.5s ease-in-out;
-}
-.slide img{
     height: 100%;
     width: 100%;
-}
-
-.prevBtn,
-.nextBtn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
-.prevBtn {
-    left: 0;
-}
-
-.nextBtn {
-    right: 0;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
 }
 
 /*ABOUT US*/
-#aboutUs {
-    margin-top: 5%;
+.aboutUs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    width: 90%;
+}
+
+.profileImgs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+}
+.profileImgs2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100%;
+}
+.circleImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #392818;
+}
+
+.profileDescriptions{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.description{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    flex-direction: column;
 }
-
-#aboutUsText {
-    display: flex;
-    width: 80%;
+.description span{
+    font-size: large;
 }
