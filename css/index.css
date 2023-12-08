@@ -14,16 +14,20 @@ main{
 /*RECOMENDED*/
 .recomended{
     height: 40%;
-    width: 40%;
+    width: 1015px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
 }
+.recomended span{
+    font-size: larger;
+    color: #392818;
+}
 
 .imgs img{
-    height: 250px;
-    width: 200px;
+    height: 300px;
+    width: 250px;
 }
 
 
@@ -34,7 +38,7 @@ main{
     justify-content: space-evenly;
     align-items: center;
     height: 300px;
-    width: 90%;
+    width: 70%;
 }
 
 .profileImgs{
@@ -51,11 +55,10 @@ main{
     flex-direction: column;
     height: 100%;
 }
-.circleImg{
-    width: 100px;
-    height: 100px;
+.circleImg img{
+    width: 120px;
+    height: 120px;
     border-radius: 100%;
-    background-color: #392818;
 }
 
 .profileDescriptions{

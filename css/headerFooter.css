@@ -27,8 +27,7 @@ header{
 
 body{
     margin: 0px;
-    background-color: whitesmoke;
-    height: 200vh;
+    height: 230vh;
 }
 
 footer{
@@ -53,6 +52,7 @@ footer{
 /*NON SELECTABLE ITEMS*/
 #login{
     user-select: none;
+    margin-top: 15px;
 }
 img{
     user-select: none;
@@ -63,7 +63,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: whitesmoke;
+    background-color: #ffffcc;
     height: 5vh;
 }
 #categories a{
@@ -78,7 +78,7 @@ img{
     display: none;
     position: absolute;
     z-index: 2;
-    background-color: rgb(206, 255, 231);
+    background-color: #392818;
     width: 25vh;
     height: 15vh;
     border-bottom-left-radius: 15px;
@@ -88,5 +88,5 @@ img{
 }
 #sideMenu a{
     text-decoration: none;
-    color: inherit;
+    color: whitesmoke;
 }
