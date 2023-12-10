@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
-    <link rel="stylesheet" href="../css/login.css">
     <link rel="stylesheet" href="../css/headerFooter.css">
+    <link rel="stylesheet" href="../css/login.css">
 </head>
+
 <body>
     <header>
         <div id="headerContent">
             <img src="../Images/arrowRight.png" alt="arrow" id="arrow">
             <img src="../Images/Logo.png" id="logo">
-            <p id='login'>Entrar</p>
+            <a href="../html/login.html" id='login'>Entrar</a>
         </div>
 
         <div id="sideMenu">
@@ -22,8 +24,60 @@
         </div>
     </header>
 
+    <main>
+        <div class="text" id="title">
+            <div class="register">
+                <span>Já tem uma conta?</span>
+                <div class="click">
+                    <span><a href="../html/login.html"><b>Clique aqui</b></a></span>
+                </div>
+            </div>
+
+            <div class="loginTxt">
+                <h1><b>Cadastro</b></h1>
+            </div>
+        </div>
+
+        <section class="sect">
+            <div class="img">
+                <img src="../Images/imgLogin.png" alt="">
+            </div>
+
+            <div class="form">
+                <form action="" method="post">
+                    <div class="regContainer">
+                        <div class="reg">
+                            <span><b>Nome</b></span>
+                            <input type="text" name="" id="">
+                            <span><b>Senha</b></span>
+                            <input type="password">
+                        </div>
     
+                        <div class="reg">
+                            <span><b>CPF</b></span>
+                            <input type="text" name="" id="">
+                            <span><b>Data de nascimento</b></span>
+                            <input type="date" name="" id="">
+                        </div>
+                    </div>
+                    <button><b>Entrar</b></button>
+
+                    <img src="../Images/Logo.png" alt="">
+                </form>
+
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <div id="footerContent">
+            <ul>DEV&PET | Paiva8859 - LuigiSousaa - GuiBrum22</ul>
+        </div>
+    </footer>
 </body>
 <script src="../js/login.js"></script>
 <script src="../js/headerFooter.js"></script>
+
 </html>

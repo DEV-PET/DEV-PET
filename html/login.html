@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,13 @@
     <link rel="stylesheet" href="../css/headerFooter.css">
     <link rel="stylesheet" href="../css/login.css">
 </head>
+
 <body>
     <header>
         <div id="headerContent">
             <img src="../Images/arrowRight.png" alt="arrow" id="arrow">
             <img src="../Images/Logo.png" id="logo">
-            <p id='login'>Entrar</p>
+            <a href="../html/login.html" id='login'>Entrar</a>
         </div>
 
         <div id="sideMenu">
@@ -23,7 +25,39 @@
     </header>
 
     <main>
-        
+        <div class="text">
+            <div class="register">
+                <span>Crie sua conta</span>
+                <div class="click">
+                    <span><a href="../html/cadastro.html"><b>Clique aqui</b></a></span>
+                </div>
+            </div>
+
+            <div class="loginTxt">
+                <h1><b>Entrar</b></h1>
+            </div>
+        </div>
+
+        <section class="sect">
+            <div class="img">
+                <img src="../Images/imgLogin.png" alt="">
+            </div>
+
+            <div class="form">
+                <form action="" method="post">
+                    <span><b>CPF</b></span>
+                    <input type="text" name="" id="">
+                    <span><b>Senha</b></span>
+                    <input type="password">
+                    <button><b>Entrar</b></button>
+
+                    <img src="../Images/Logo.png" alt="">
+                </form>
+    
+            </div>
+        </section>
+
+
     </main>
 
     <footer>
@@ -34,4 +68,5 @@
 </body>
 <script src="../js/headerFooter.js"></script>
 <script src="../js/login.js"></script>
+
 </html>

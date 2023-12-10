@@ -1,0 +1,150 @@
+body {
+    height: 90vh;
+    overflow: hidden;
+}
+
+main::before {
+    margin-top: 4%;
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 35%;
+    height: 85%;
+    background-color: #392818;
+    z-index: -1;
+}
+
+main::after {
+    margin-top: 4%;
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 70%;
+    height: 82%;
+    background-color: #ffffcc;
+    z-index: -1;
+    border-radius: 30px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.text {
+    display: flex;
+    height: 10%;
+    width: 80%;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 7%;
+    justify-content: space-between;
+}
+
+.text span {
+    font-size: x-large;
+    color: #ffffcc;
+}
+
+.click {
+    display: flex;
+    height: 35px;
+    background-color: #ffffcc;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+}
+
+.click span {
+    color: #392818;
+}
+
+.loginTxt {
+    margin-right: 25%;
+}
+
+.loginTxt h1 {
+    color: #392818;
+}
+
+.sect {
+    width: 100%;
+    align-self: flex-start;
+    height: 100%;
+}
+
+.sect {
+    display: flex;
+    align-self: flex-start;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+}
+
+.img{
+    align-self: flex-start;
+    height: 100%;
+    width: 50%;
+    margin-top: 30px;
+    background-color: #392818;
+    border-radius: 100%;
+}
+
+.img img {
+    height: 80%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.form img {
+    width: 20%;
+}
+
+form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+form input{
+    border-radius: 15px;
+    height: 30px;
+}
+form button{
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    color: #392818;
+}
+form span{
+    font-size: x-large;
+    color: #392818;
+}
+
+.regContainer{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.reg{
+    display: flex;
+    flex-direction: column;
+}
