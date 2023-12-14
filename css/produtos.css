@@ -212,3 +212,29 @@ a {
 .card .content .product-image .box-image .img-product {
   width: 7rem;
 }
+
+@media (max-width: 720px){
+  .text{
+    display: none;
+  }
+
+  .cards {
+    width: 100vh;
+  }
+  
+  .card {
+    position: relative;
+    background: transparent;
+    width: 300px;
+    height: 300px;
+    border: none;
+  }
+
+  .products{
+    justify-content: unset;
+  }
+
+  .textStartFinal{
+    margin-top: 20%;
+  }
+}
