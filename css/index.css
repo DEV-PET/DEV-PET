@@ -75,7 +75,7 @@ main{
     font-size: large;
 }
 
-@media (max-width: 896px){
+@media (max-width: 720px){
     #responsive{
         width: 120px;
         height: 160px;
