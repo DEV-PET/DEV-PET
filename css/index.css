@@ -7,14 +7,10 @@ main{
     align-items: center;
 }
 
-#carouselExampleAutoplaying{
-    margin-top: 100px;
-}
-
 /*RECOMENDED*/
 .recomended{
     height: 40%;
-    width: 1015px;
+    width: 70%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -26,8 +22,8 @@ main{
 }
 
 .imgs img{
-    height: 300px;
-    width: 250px;
+    height: 35vh;
+    width: 30vh;
 }
 
 
@@ -77,4 +73,44 @@ main{
 }
 .description span{
     font-size: large;
+}
+
+@media (max-width: 720px){
+    #responsive{
+        width: 120px;
+        height: 160px;
+    }
+}
+
+@media (max-width:460px){
+    #responsive{
+        width: 60px;
+        height: 80px;
+    }
+
+    .aboutUs{
+        font-size: small;
+    }
+    .aboutUs img{
+        height: 60px;
+        width: 60px;
+    }
+
+    .recomended{
+        height: 3%;
+        margin-top: 150px;
+    }
+
+    .dogs{
+        height: 15%;
+        align-items: flex-end;
+    }
+
+    main{
+        height: 200vh;
+    }
+
+    body{
+        height: 190vh;
+    }
 }

@@ -28,12 +28,12 @@ header{
 
 body{
     margin: 0px;
-    height: 230vh;
+    height: 300vh;
 }
 
 footer{
     width: 100%;
-    height: 10%;
+    height: 12%;
     background-color: #392818;
     display: flex;
     justify-content: center;

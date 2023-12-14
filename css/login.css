@@ -28,7 +28,7 @@ main::after {
     border-radius: 30px;
 }
 
-main {
+main {  
     display: flex;
     justify-content: center;
     height: 100%;
@@ -95,7 +95,7 @@ a {
 .img{
     align-self: flex-start;
     height: 100%;
-    width: 50%;
+    width: 55%;
     margin-top: 30px;
     background-color: #392818;
     border-radius: 100%;
