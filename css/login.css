@@ -28,7 +28,7 @@ main::after {
     border-radius: 30px;
 }
 
-main {  
+main {
     display: flex;
     justify-content: center;
     height: 100%;
@@ -48,7 +48,7 @@ a {
     width: 80%;
     flex-direction: row;
     align-items: center;
-    margin-top: 7%;
+    margin-top: 150px;
     justify-content: space-between;
 }
 
@@ -92,7 +92,7 @@ a {
     flex-direction: row;
 }
 
-.img{
+.img {
     align-self: flex-start;
     height: 100%;
     width: 55%;
@@ -111,6 +111,7 @@ a {
     height: 100%;
     width: 100%;
 }
+
 .form img {
     width: 20%;
 }
@@ -122,29 +123,116 @@ form {
     justify-content: space-evenly;
     align-items: center;
 }
-form input{
+
+form input {
     border-radius: 15px;
     height: 30px;
 }
-form button{
+
+form button {
     height: 30px;
     width: 100px;
     border-radius: 15px;
     color: #392818;
 }
-form span{
+
+form span {
     font-size: x-large;
     color: #392818;
 }
 
-.regContainer{
+.regContainer {
     width: 40%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
-.reg{
+
+.reg {
     display: flex;
     flex-direction: column;
+}
+
+@media (max-width: 720px) {
+    main::before {
+        margin-top: 4%;
+        content: "";
+        left: 0;
+        width: 45%;
+        position: fixed;
+        top: 0;
+        height: 100%;
+        background-color: #392818;
+        z-index: -1;
+    }
+
+    main::after {
+        margin-top: 4%;
+        content: "";
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 60%;
+        height: 100%;
+        background-color: #ffffcc;
+        z-index: -1;
+        border-radius: 30px;
+    }
+
+    .img img {
+        height: 80%;
+    }
+
+    form {
+        height: 80%;
+    }
+    #formImg{
+        width: 50px
+    }
+
+    .img {
+        height: 80%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 460px) {
+    main::after {
+        margin-top: 4%;
+        content: "";
+        left: 0;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        height: 100%;
+        background-color: #392818;
+        z-index: -1;
+    }
+
+    .loginTxt h1{
+        display: none;
+    }
+    .form span{
+        color:#ffffcc;
+    }
+
+    .img {
+        display: none;
+    }
+    
+    .text{
+        margin-top: 100px;
+        justify-content: center;
+        margin-left: 17%;
+    }
+
+    #formImg{
+        width: 80px;
+    }
+
+    form{
+        height: 100%
+        width: 100%;
+    }
 }
