@@ -216,9 +216,6 @@ form span {
 }
 
 @media (max-width: 460px) {
-    body{
-        overflow: visible;
-    }
 
     main::after {
         margin-top: 4%;
